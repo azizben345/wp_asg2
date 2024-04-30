@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="utm-logo-2.png" alt="Logo">
+			<!--https://admission.utm.my/utm-international-agent-2/-->
+        </div>
+        <h1>Welcome To MY Website!</h1>
+    </header>
+
+    <!-- Left Menu Section -->
+    <nav class="left-menu">
+        <ul>
+			<li><b>GO TO</b></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#ple">Programming Language Proficiency</a></li>
+            <li><a href="#interests">Personal Interests</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Right Menu Section -->
+    <nav class="right-menu">
+		
+        <ul>
+			<li><b>MORE</b></li>
+            <li><a href="https://www.linkedin.com/in/aziz-mabeni/">My LinkedIn</a></li>
+            <div class="dropdown">
+			  <button class="dropbtn">Teams' Websites</button>
+			  <div class="dropdown-content">
+				<a href="#">Zaied</a>
+				<a href="#">Hafiz</a>
+			  </div>
+			</div>
+        </ul>
+    </nav>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div id="about">
+			<p><br><br><br><br><br></p>
+            <h2>About Me</h2>
+            <p>Welcome! Here you can find about me, my interests and my progress towards them.</p>
+            <img src="profile_pic.jpg" alt="Profile Picture" class="pic-1">
+			<ul>
+				<li><b>FULL NAME: </b>Abdul Aziz bin Mabeni</li>
+				<li><b>BIRTHDATE: </b>21 August 2003</li>
+				<li><b>BIRTHPLACE: </b>Pontian, Johor, Malaysia</li>
+				<li><b>CURRENT OCCUPATION: </b>Student (Software Engineering)</li>
+			</ul>
+			<img src="big-pic.jpg" alt="Friends Picture" class="pic-2">
+        </div>
+
+        <div id="ple">
+			<p><br><br><br><br><br></p>
+			<h2>Programming Language Proficiency</h2>
+			<p>Here are the programming languages I am proficient in:</p>
+			<div class="language">
+				<img src="cpp.png" alt="C++ Logo" class="lg-img">
+				<!--https://en.wikipedia.org/wiki/C%2B%2B-->
+				<span class="language-name">C++</span>
+				<div class="progress-bar">
+					<div class="progress" style="width: 70%; background-color: #00599C;">70%</div>
+				</div>
+			</div>
+			<div class="language">
+				<img src="cs.png" alt="C# Logo" class="lg-img">
+				<!--https://commons.wikimedia.org/wiki/File:Logo_C_sharp.svg-->
+				<span class="language-name">C#</span>
+				<div class="progress-bar">
+					<div class="progress" style="width: 50%; background-color: #388E3C;">50%</div>
+				</div>
+			</div>
+			<div class="language">
+				<img src="java.png" alt="Java Logo" class="lg-img">
+				<!--https://www.iconfinder.com/icons/4373217/java_logo_logos_icon-->
+				<span class="language-name">Java</span>
+				<div class="progress-bar">
+					<div class="progress" style="width: 50%; background-color: #FF5722;">50%</div>
+				</div>
+			</div>
+			<div class="language">
+				<img src="sql.png" alt="SQL Logo" class="lg-img">
+				<!--https://www.cleanpng.com/png-microsoft-sql-server-mysql-database-logo-2447831/download-png.html-->
+				<span class="language-name">SQL</span>
+				<div class="progress-bar">
+					<div class="progress" style="width: 40%; background-color: #03A9F4;">40%</div>
+				</div>
+			</div>
+			<div class="language">
+				<img src="html.png" alt="HTML Logo" class="lg-img">
+				<!--https://www.stickpng.com/img/download/5847f5bdcef1014c0b5e489c-->
+				<span class="language-name">HTML, CSS, JS</span>
+				<div class="progress-bar">
+					<div class="progress" style="width: 40%; background-color: #64B5F6;">40%</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="interests">
+			<p><br><br><br><br><br></p>
+			<h2>Personal Interests</h2>
+			<p>Through my pursue towards Computer Science course, I have develop a certain degree of interests towards:</p>
+			<div class="picture-item">
+				<img src="gd.png" alt="Game Development">
+				<!--https://www.chaostheorygames.com/blog/basics-of-game-development-for-businesses-->
+				<h4>Game Development</h4>
+				<p>Fueled by passion towards video games, it is almost given for me to plunge myself into developing video games via this course.
+				I have learned object-oriented programming and currently self-learning about graphics and animations.</p>
+			</div>
+			<div class="picture-item">
+				<img src="ai.jpeg" alt="Artificial Intelligence">
+				<!--https://aimst.edu.my/event-news/hottest-ai-skills-2023/-->
+				<h4>Artificial Intelligence</h4>
+				<p>With the ever-growing industry of artificial intelligence, 
+				I am truly captivated by its boundless potential, and I am looking forward to its more creative
+				application in the technology industry, especially in game industry.</p>
+
+			</div>
+		</div>
+
+        <div id="contact">
+			<p><br><br><br><br><br></p>
+            <h2>Contact Me</h2>
+            <p>Have a question? Feel free to reach out! Or directly email me: 
+			<a href="mailto:azizmabeni@gmail.com">azizmabeni@gmail.com</a></p>
+            <form>
+				<div>
+					<input type="text" id="name" placeholder="Name">
+				</div>
+				<div>
+					<input type="email" id="email" placeholder="Email">
+				</div>
+				<div>
+					<textarea id="message" 
+					placeholder="Enter message here..."></textarea>
+				</div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 <b>Abdul Aziz</b>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
